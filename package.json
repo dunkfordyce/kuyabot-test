@@ -1,0 +1,34 @@
+{
+  "name": "kuyabot-test",
+  "version": "0.0.0",
+  "description": "kuyabot-test ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dunkfordyce/kuyabot-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunkfordyce/kuyabot-test/issues"
+  },
+  "homepage": "https://github.com/dunkfordyce/kuyabot-test",
+  "dependencies": {
+    "kuyabot": "0.0.0",
+    "kuyabot-command": "0.0.0",
+    "kuyabot-logger": "0.0.0",
+    "kuyabot-rawcommand": "0.0.0",
+    "kuyabot-sqlite": "0.0.0",
+    "kuyabot-status": "0.0.0"
+  },
+  "client": { 
+    "server": "irc.freenode.net",
+    "nick": "kuyabot",
+    "options": { 
+      "channels": ["#kuyabot-test"]
+    }
+  }
+}
